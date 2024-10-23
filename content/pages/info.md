@@ -32,6 +32,7 @@ sections:
         textAlign: left
       text:
         textAlign: left
+    subtitle: Sustainable impact lives in the minds of people - Bright Minds
   - type: DividerSection
     styles:
       self:
