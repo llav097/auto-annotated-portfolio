@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: About
+title: About us
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
@@ -10,30 +10,19 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 75
 sections:
-  - elementId: ''
+  - type: TextSection
     colors: colors-f
-    backgroundSize: full
-    text: >-
-      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
-    media:
-      type: ImageBlock
-      url: /images/about.jpg
-      altText: Hero image
+    variant: variant-a
+    title: Sustainable impact lives in the minds of people - Bright Minds
+    text: "What makes a\_**Bright Mind**? It’s not just knowledge or expertise - it’s a way of thinking. It’s the curiosity to explore new ideas, the creativity to solve complex challenges, and the courage to make sustainable decisions.\_\n\nThese qualities define who we are. We are\_**Bright Minds**, and we don’t just solve today’s problems - we create lasting success for tomorrow.\n"
+    elementId: ''
     styles:
       self:
         height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
+        width: narrow
         padding:
-          - pt-16
-          - pb-12
+          - pt-28
+          - pb-28
           - pl-4
           - pr-4
         justifyContent: center
@@ -43,9 +32,6 @@ sections:
         textAlign: left
       text:
         textAlign: left
-      actions:
-        justifyContent: flex-start
-    type: HeroSection
   - type: DividerSection
     styles:
       self:
@@ -58,6 +44,65 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
+  - type: TestimonialsSection
+    testimonials:
+      - type: Testimonial
+        quote: >
+          “I thrive on pushing the boundaries of conventional thinking, driven
+          by a deep passion for psychology and data. I tackle every challenge
+          with fresh insights, blending human behavior with the power of
+          statistics to develop cutting-edge, tech-driven solutions. My focus is
+          on innovating beyond the norm, delivering impactful results that
+          disrupt the status quo and shape the future.”
+        name: Leon Vahlkamp
+        title: CEO at Parks
+        image:
+          type: ImageBlock
+          url: /images/person-2.jpg
+          altText: John Doe
+          caption: Caption of the image
+          elementId: ''
+        elementId: ''
+        styles:
+          name:
+            fontWeight: 400
+          title:
+            fontWeight: 400
+      - type: Testimonial
+        quote: >
+          “Anytime I have a question, I know I can get in touch with Doris. She
+          always helps me adjust my site to look as perfect as I’d hoped.”
+        name: Johnna Doe
+        title: Product Marketing Manager at Acme
+        image:
+          type: ImageBlock
+          url: /images/person-3.jpg
+          altText: Johnna Doe
+          caption: Caption of the image
+          elementId: ''
+        elementId: ''
+        styles:
+          name:
+            fontWeight: 400
+          title:
+            fontWeight: 400
+    colors: colors-f
+    variant: variant-c
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-28
+          - pb-28
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
   - type: MediaGallerySection
     colors: colors-f
     subtitle: 'I worked with these folks:'
@@ -345,70 +390,4 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
-  - type: ContactSection
-    backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
-    colors: colors-f
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      fields:
-        - name: firstName
-          label: First Name
-          hideLabel: true
-          placeholder: First Name
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
-          width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Tell me about your project
-          isRequired: true
-          width: full
-          type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
-      styles:
-        submitLabel:
-          textAlign: center
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-4
-          - mr-4
-        padding:
-          - pt-12
-          - pb-12
-          - pr-4
-          - pl-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-      title:
-        textAlign: left
-      text:
-        textAlign: left
 ---

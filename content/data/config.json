@@ -5,13 +5,16 @@
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "bi2b",
         "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
-                "url": "/info"
+                "label": "About us",
+                "url": "/info",
+                "altText": "About us page",
+                "showIcon": false,
+                "icon": ""
             },
             {
                 "type": "Link",
@@ -27,17 +30,11 @@
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
-                "icon": "twitter"
-            },
-            {
-                "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "icon": "github"
+                "label": "LinkedIn",
+                "altText": "Go to LinkedIn Profile of bi2b",
+                "url": "https://www.linkedin.com/company/bi2b-gmbh",
+                "icon": "linkedin",
+                "elementId": ""
             }
         ],
         "styles": {
@@ -66,29 +63,28 @@
                 "label": "Blog",
                 "url": "/blog",
                 "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
             }
         ],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "850-123-5021",
-            "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
-            "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
-            "addressAltText": "My address"
+            "phoneNumber": "+49 (0) 2245 911 240",
+            "phoneAltText": "Phone number of bi2b office",
+            "email": "info@bi2b.de",
+            "emailAltText": "Email of bi2b office",
+            "address": "Oberbonrath 36, 53804 Much, Germany",
+            "addressAltText": "bi2b German office address"
         },
         "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
         "styles": {
             "self": {
                 "width": "narrow",
-                "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
+                "padding": [
+                    "pt-16",
+                    "pb-16",
+                    "pr-4",
+                    "pl-4"
+                ]
             }
         }
     }
