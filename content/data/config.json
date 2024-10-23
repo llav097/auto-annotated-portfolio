@@ -42,7 +42,7 @@
             {
                 "type": "Social",
                 "label": "LinkedIn",
-                "altText": "",
+                "altText": "Go to LinkedIn Profile of bi2b",
                 "url": "https://www.linkedin.com/company/bi2b-gmbh",
                 "icon": "linkedin",
                 "elementId": ""
