@@ -34,13 +34,6 @@
             },
             {
                 "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "icon": "github"
-            },
-            {
-                "type": "Social",
                 "label": "LinkedIn",
                 "altText": "Go to LinkedIn Profile of bi2b",
                 "url": "https://www.linkedin.com/company/bi2b-gmbh",
