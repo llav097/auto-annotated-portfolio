@@ -62,6 +62,7 @@ sections:
           altText: John Doe
           caption: Caption of the image
           elementId: ''
+          url: /images/1718339362938.jpeg
         elementId: ''
         styles:
           name:
