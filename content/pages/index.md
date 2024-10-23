@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: Bright insights to business.
-    subtitle: We empower you to make sustainable decisions.
+    subtitle: We empower people to make sustainable decisions.
     styles:
       self:
         height: auto
