@@ -47,9 +47,7 @@ sections:
   - type: TestimonialsSection
     testimonials:
       - type: Testimonial
-        quote: >
-          "Our website is the core of our sales strategy. Doris helped us
-          establish an easy-to-maintain Stackbit site with outstanding visuals!"
+        quote: "**Leon Vahlkamp\_**thrives on exploring the unconventional. With a deep passion for psychology and statistics, he approaches every challenge from a fresh perspective, always pushing the boundaries of what’s possible. Leon drives innovative solutions that challenge the status quo and create lasting impact.\n"
         name: Leon Vahlkamp
         title: CEO at Parks
         image:
