@@ -237,6 +237,28 @@ sections:
         borderWidth: 1
         borderStyle: solid
   - type: TextSection
+    colors: colors-f
+    variant: variant-a
+    title: Sustainable impact lives in the minds of people - Bright Minds
+    text: "What makes a\_**Bright Mind**? It’s not just knowledge or expertise - it’s a way of thinking. It’s the curiosity to explore new ideas, the creativity to solve complex challenges, and the courage to make sustainable decisions.\_\n\nThese qualities define who we are. We are\_**Bright Minds**, and we don’t just solve today’s problems - we create lasting success for tomorrow.\n"
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-28
+          - pb-28
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+  - type: TextSection
     variant: variant-a
     subtitle: 'Contact:'
     colors: colors-f
@@ -410,28 +432,6 @@ sections:
         justifyContent: center
         flexDirection: row
       title:
-        textAlign: left
-      text:
-        textAlign: left
-  - type: TextSection
-    colors: colors-f
-    variant: variant-a
-    title: Sustainable impact lives in the minds of people - Bright Minds
-    text: "What makes a\_**Bright Mind**? It’s not just knowledge or expertise - it’s a way of thinking. It’s the curiosity to explore new ideas, the creativity to solve complex challenges, and the courage to make sustainable decisions.\_\n\nThese qualities define who we are. We are\_**Bright Minds**, and we don’t just solve today’s problems - we create lasting success for tomorrow.\n"
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
         textAlign: left
       text:
         textAlign: left
