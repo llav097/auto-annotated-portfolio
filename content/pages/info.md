@@ -59,7 +59,7 @@ sections:
         title: CEO at Parks
         image:
           type: ImageBlock
-          altText: Leon Vahlkamp
+          altText: Picture of Leon Vahlkamp
           caption: ''
           elementId: ''
           url: /images/1718339362938.jpeg
