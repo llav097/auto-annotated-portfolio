@@ -56,7 +56,7 @@ sections:
           on innovating beyond the norm, delivering impactful results that
           disrupt the status quo and shape the future.”
         name: Leon Vahlkamp
-        title: CEO at Parks
+        title: PhD Candidate
         image:
           type: ImageBlock
           altText: Picture of Leon Vahlkamp
