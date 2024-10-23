@@ -60,7 +60,7 @@ sections:
         image:
           type: ImageBlock
           altText: Leon Vahlkamp
-          caption: Caption of the image
+          caption: asdfCaption of the image
           elementId: ''
           url: /images/1718339362938.jpeg
         elementId: ''
