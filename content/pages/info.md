@@ -47,7 +47,7 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     title: 'Guided by purpose, driven by people.'
-    subtitle: SUBSTITLE
+    subtitle: We empower people to make sustainable decisions.
   - type: DividerSection
     styles:
       self:
