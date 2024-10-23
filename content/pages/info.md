@@ -60,7 +60,7 @@ sections:
         image:
           type: ImageBlock
           altText: Picture of Leon Vahlkamp
-          caption: ''
+          caption: Leon Vahlkamp
           elementId: ''
           url: /images/1718339362938.jpeg
         elementId: ''
