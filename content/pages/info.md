@@ -14,10 +14,6 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: ''
-    media:
-      type: ImageBlock
-      url: /images/about.jpg
-      altText: Hero image
     styles:
       self:
         height: auto
