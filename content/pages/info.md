@@ -47,7 +47,13 @@ sections:
   - type: TestimonialsSection
     testimonials:
       - type: Testimonial
-        quote: "**Leon Vahlkamp\_**thrives on exploring the unconventional. With a deep passion for psychology and statistics, he approaches every challenge from a fresh perspective, always pushing the boundaries of what’s possible. Leon drives innovative solutions that challenge the status quo and create lasting impact.\n"
+        quote: >
+          “I thrive on pushing the boundaries of conventional thinking, driven
+          by a deep passion for psychology and data. I tackle every challenge
+          with fresh insights, blending human behavior with the power of
+          statistics to develop cutting-edge, tech-driven solutions. My focus is
+          on innovating beyond the norm, delivering impactful results that
+          disrupt the status quo and shape the future.”
         name: Leon Vahlkamp
         title: CEO at Parks
         image:
