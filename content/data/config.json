@@ -14,7 +14,7 @@
                 "url": "/info",
                 "altText": "About us page",
                 "showIcon": true,
-                "icon": "apple"
+                "icon": ""
             },
             {
                 "type": "Link",
