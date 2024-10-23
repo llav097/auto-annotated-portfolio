@@ -73,7 +73,7 @@
             "email": "info@bi2b.de",
             "emailAltText": "Email of bi2b office",
             "address": "Oberbonrath 36, 53804 Much, Germany",
-            "addressAltText": "My address"
+            "addressAltText": "bi2b office address"
         },
         "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
         "styles": {
