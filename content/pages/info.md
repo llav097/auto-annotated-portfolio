@@ -46,7 +46,7 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-    title: TITLE
+    title: 'Guided by purpose, driven by people.'
     subtitle: SUBSTITLE
   - type: DividerSection
     styles:
