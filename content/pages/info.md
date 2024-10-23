@@ -59,7 +59,7 @@ sections:
         title: CEO at Parks
         image:
           type: ImageBlock
-          altText: John Doe
+          altText: Leon Vahlkamp
           caption: Caption of the image
           elementId: ''
           url: /images/1718339362938.jpeg
